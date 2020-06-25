@@ -153,7 +153,7 @@ const SectionHeader = styled('div')<{isCentered?: boolean}>`
   }
   & small a {
     color: ${p => p.theme.gray700};
-    border-bottom: 1px dotted ${p => p.theme.gray400};
+    border-bottom: 1px dotted ${p => p.theme.borderDark};
     font-weight: normal;
   }
 
