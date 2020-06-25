@@ -1,0 +1,714 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JsonForm renders with Form 1`] = `
+<JsonForm
+  additionalFieldProps={
+    Object {
+      "user": Object {
+        "email": "foo@example.com",
+        "flags": Object {
+          "newsletter_consent_prompt": false,
+        },
+        "hasPasswordAuth": true,
+        "id": "1",
+        "isAuthenticated": true,
+        "name": "Foo Bar",
+        "options": Object {
+          "timezone": "UTC",
+        },
+        "username": "foo@example.com",
+      },
+    }
+  }
+  forms={
+    Array [
+      Object {
+        "fields": Array [
+          Object {
+            "help": "Your full name",
+            "label": "Name",
+            "name": "name",
+            "placeholder": "e.g. John Doe",
+            "required": true,
+            "type": "string",
+          },
+          Object {
+            "autoComplete": "username",
+            "disabled": [Function],
+            "help": "",
+            "label": "Username",
+            "name": "username",
+            "placeholder": "e.g. name@example.com",
+            "required": true,
+            "type": "string",
+            "visible": [Function],
+          },
+        ],
+        "title": "Account Details",
+      },
+    ]
+  }
+>
+  <Styled(div)>
+    <div
+      className="css-vurnku"
+    >
+      <FormPanel
+        additionalFieldProps={
+          Object {
+            "user": Object {
+              "email": "foo@example.com",
+              "flags": Object {
+                "newsletter_consent_prompt": false,
+              },
+              "hasPasswordAuth": true,
+              "id": "1",
+              "isAuthenticated": true,
+              "name": "Foo Bar",
+              "options": Object {
+                "timezone": "UTC",
+              },
+              "username": "foo@example.com",
+            },
+          }
+        }
+        fields={
+          Array [
+            Object {
+              "help": "Your full name",
+              "label": "Name",
+              "name": "name",
+              "placeholder": "e.g. John Doe",
+              "required": true,
+              "type": "string",
+            },
+            Object {
+              "autoComplete": "username",
+              "disabled": [Function],
+              "help": "",
+              "label": "Username",
+              "name": "username",
+              "placeholder": "e.g. name@example.com",
+              "required": true,
+              "type": "string",
+              "visible": [Function],
+            },
+          ]
+        }
+        title="Account Details"
+      >
+        <Panel
+          id="Account-Details"
+        >
+          <Component
+            className="css-15hwgrz-Panel e119nu470"
+            id="Account-Details"
+          >
+            <div
+              className="css-15hwgrz-Panel e119nu470"
+              id="Account-Details"
+            >
+              <PanelHeader>
+                <div
+                  className="css-1es1m70-PanelHeader en8g1d30"
+                >
+                  Account Details
+                </div>
+              </PanelHeader>
+              <PanelBody
+                flexible={false}
+                withPadding={false}
+              >
+                <FlexBox
+                  withPadding={false}
+                >
+                  <div
+                    className="css-1nto0rx-FlexBox e1vnwt6f0"
+                  >
+                    <FieldFromConfig
+                      field={
+                        Object {
+                          "help": "Your full name",
+                          "label": "Name",
+                          "name": "name",
+                          "placeholder": "e.g. John Doe",
+                          "required": true,
+                          "type": "string",
+                        }
+                      }
+                      highlighted={false}
+                      key="name"
+                      user={
+                        Object {
+                          "email": "foo@example.com",
+                          "flags": Object {
+                            "newsletter_consent_prompt": false,
+                          },
+                          "hasPasswordAuth": true,
+                          "id": "1",
+                          "isAuthenticated": true,
+                          "name": "Foo Bar",
+                          "options": Object {
+                            "timezone": "UTC",
+                          },
+                          "username": "foo@example.com",
+                        }
+                      }
+                    >
+                      <TextField
+                        help="Your full name"
+                        highlighted={false}
+                        label="Name"
+                        name="name"
+                        placeholder="e.g. John Doe"
+                        required={true}
+                        type="string"
+                        user={
+                          Object {
+                            "email": "foo@example.com",
+                            "flags": Object {
+                              "newsletter_consent_prompt": false,
+                            },
+                            "hasPasswordAuth": true,
+                            "id": "1",
+                            "isAuthenticated": true,
+                            "name": "Foo Bar",
+                            "options": Object {
+                              "timezone": "UTC",
+                            },
+                            "username": "foo@example.com",
+                          }
+                        }
+                      >
+                        <InputField
+                          field={[Function]}
+                          help="Your full name"
+                          highlighted={false}
+                          label="Name"
+                          name="name"
+                          placeholder="e.g. John Doe"
+                          required={true}
+                          type="text"
+                          user={
+                            Object {
+                              "email": "foo@example.com",
+                              "flags": Object {
+                                "newsletter_consent_prompt": false,
+                              },
+                              "hasPasswordAuth": true,
+                              "id": "1",
+                              "isAuthenticated": true,
+                              "name": "Foo Bar",
+                              "options": Object {
+                                "timezone": "UTC",
+                              },
+                              "username": "foo@example.com",
+                            }
+                          }
+                        >
+                          <FormField
+                            field={[Function]}
+                            flexibleControlStateSize={false}
+                            help="Your full name"
+                            hideErrorMessage={false}
+                            highlighted={false}
+                            label="Name"
+                            name="name"
+                            placeholder="e.g. John Doe"
+                            required={true}
+                            type="text"
+                            user={
+                              Object {
+                                "email": "foo@example.com",
+                                "flags": Object {
+                                  "newsletter_consent_prompt": false,
+                                },
+                                "hasPasswordAuth": true,
+                                "id": "1",
+                                "isAuthenticated": true,
+                                "name": "Foo Bar",
+                                "options": Object {
+                                  "timezone": "UTC",
+                                },
+                                "username": "foo@example.com",
+                              }
+                            }
+                          >
+                            <Field
+                              alignRight={false}
+                              disabled={false}
+                              field={[Function]}
+                              flexibleControlStateSize={false}
+                              help="Your full name"
+                              highlighted={false}
+                              id="name"
+                              inline={true}
+                              label="Name"
+                              name="name"
+                              placeholder="e.g. John Doe"
+                              required={true}
+                              showHelpInTooltip={false}
+                              type="text"
+                              user={
+                                Object {
+                                  "email": "foo@example.com",
+                                  "flags": Object {
+                                    "newsletter_consent_prompt": false,
+                                  },
+                                  "hasPasswordAuth": true,
+                                  "id": "1",
+                                  "isAuthenticated": true,
+                                  "name": "Foo Bar",
+                                  "options": Object {
+                                    "timezone": "UTC",
+                                  },
+                                  "username": "foo@example.com",
+                                }
+                              }
+                              visible={true}
+                            >
+                              <FieldWrapper
+                                hasControlState={true}
+                                highlighted={false}
+                                inline={true}
+                              >
+                                <div
+                                  className="css-hkyx7n-FieldWrapper-FieldWrapper e2iyls20"
+                                >
+                                  <FieldDescription
+                                    htmlFor="name"
+                                    inline={true}
+                                  >
+                                    <label
+                                      className="css-boiybi-FieldDescription e3z18c30"
+                                      htmlFor="name"
+                                    >
+                                      <FieldLabel
+                                        disabled={false}
+                                      >
+                                        <div
+                                          className="css-wufuns-FieldLabel e16ushrl0"
+                                        >
+                                          <span>
+                                            Name
+                                            <FieldRequiredBadge>
+                                              <div
+                                                className="css-dp3tuo-FieldRequiredBadge e1uclnuk0"
+                                              />
+                                            </FieldRequiredBadge>
+                                          </span>
+                                        </div>
+                                      </FieldLabel>
+                                      <FieldHelp
+                                        inline={true}
+                                      >
+                                        <div
+                                          className="css-1ooulq2-FieldHelp e54sr8f0"
+                                        >
+                                          Your full name
+                                        </div>
+                                      </FieldHelp>
+                                    </label>
+                                  </FieldDescription>
+                                  <FieldControl
+                                    alignRight={false}
+                                    controlState={
+                                      <FormFieldControlState
+                                        model={
+                                          MockModel {
+                                            "initialData": Object {
+                                              "name": undefined,
+                                            },
+                                            "props": Object {
+                                              "access": undefined,
+                                              "children": [Function],
+                                              "className": undefined,
+                                              "disabled": undefined,
+                                              "features": undefined,
+                                              "field": [Function],
+                                              "flexibleControlStateSize": false,
+                                              "help": "Your full name",
+                                              "hideErrorMessage": false,
+                                              "highlighted": false,
+                                              "label": "Name",
+                                              "name": "name",
+                                              "placeholder": "e.g. John Doe",
+                                              "required": true,
+                                              "type": "text",
+                                              "user": Object {
+                                                "email": "foo@example.com",
+                                                "flags": Object {
+                                                  "newsletter_consent_prompt": false,
+                                                },
+                                                "hasPasswordAuth": true,
+                                                "id": "1",
+                                                "isAuthenticated": true,
+                                                "name": "Foo Bar",
+                                                "options": Object {
+                                                  "timezone": "UTC",
+                                                },
+                                                "username": "foo@example.com",
+                                              },
+                                            },
+                                          }
+                                        }
+                                        name="name"
+                                      />
+                                    }
+                                    disabled={false}
+                                    errorState={
+                                      <Observer>
+                                        [Function]
+                                      </Observer>
+                                    }
+                                    flexibleControlStateSize={false}
+                                    inline={true}
+                                  >
+                                    <FieldControlErrorWrapper
+                                      inline={true}
+                                    >
+                                      <div
+                                        className="css-qe5fr0-FieldControlErrorWrapper e12jpfuq0"
+                                      >
+                                        <FieldControlWrapper>
+                                          <div
+                                            className="css-1evsibf-FieldControlWrapper e12jpfuq2"
+                                          >
+                                            <FieldControlStyled
+                                              alignRight={false}
+                                            >
+                                              <div
+                                                className="css-ld1e0a-FieldControlStyled e12jpfuq1"
+                                              >
+                                                <Observer>
+                                                  <Input
+                                                    disabled={false}
+                                                    field={[Function]}
+                                                    help="Your full name"
+                                                    highlighted={false}
+                                                    id="name"
+                                                    initialData={
+                                                      Object {
+                                                        "name": undefined,
+                                                      }
+                                                    }
+                                                    label="Name"
+                                                    model={
+                                                      MockModel {
+                                                        "initialData": Object {
+                                                          "name": undefined,
+                                                        },
+                                                        "props": Object {
+                                                          "access": undefined,
+                                                          "children": [Function],
+                                                          "className": undefined,
+                                                          "disabled": undefined,
+                                                          "features": undefined,
+                                                          "field": [Function],
+                                                          "flexibleControlStateSize": false,
+                                                          "help": "Your full name",
+                                                          "hideErrorMessage": false,
+                                                          "highlighted": false,
+                                                          "label": "Name",
+                                                          "name": "name",
+                                                          "placeholder": "e.g. John Doe",
+                                                          "required": true,
+                                                          "type": "text",
+                                                          "user": Object {
+                                                            "email": "foo@example.com",
+                                                            "flags": Object {
+                                                              "newsletter_consent_prompt": false,
+                                                            },
+                                                            "hasPasswordAuth": true,
+                                                            "id": "1",
+                                                            "isAuthenticated": true,
+                                                            "name": "Foo Bar",
+                                                            "options": Object {
+                                                              "timezone": "UTC",
+                                                            },
+                                                            "username": "foo@example.com",
+                                                          },
+                                                        },
+                                                      }
+                                                    }
+                                                    name="name"
+                                                    onBlur={[Function]}
+                                                    onChange={[Function]}
+                                                    onKeyDown={[Function]}
+                                                    placeholder="e.g. John Doe"
+                                                    required={true}
+                                                    type="text"
+                                                    user={
+                                                      Object {
+                                                        "email": "foo@example.com",
+                                                        "flags": Object {
+                                                          "newsletter_consent_prompt": false,
+                                                        },
+                                                        "hasPasswordAuth": true,
+                                                        "id": "1",
+                                                        "isAuthenticated": true,
+                                                        "name": "Foo Bar",
+                                                        "options": Object {
+                                                          "timezone": "UTC",
+                                                        },
+                                                        "username": "foo@example.com",
+                                                      }
+                                                    }
+                                                  >
+                                                    <input
+                                                      className="css-1iurn5e-Input e1xej46s0"
+                                                      disabled={false}
+                                                      id="name"
+                                                      label="Name"
+                                                      name="name"
+                                                      onBlur={[Function]}
+                                                      onChange={[Function]}
+                                                      onKeyDown={[Function]}
+                                                      placeholder="e.g. John Doe"
+                                                      type="text"
+                                                    />
+                                                  </Input>
+                                                </Observer>
+                                              </div>
+                                            </FieldControlStyled>
+                                            <FieldControlState
+                                              flexibleControlStateSize={false}
+                                            >
+                                              <div
+                                                className="css-1347hil-FieldControlState ep9s0su0"
+                                              >
+                                                <FormFieldControlState
+                                                  model={
+                                                    MockModel {
+                                                      "initialData": Object {
+                                                        "name": undefined,
+                                                      },
+                                                      "props": Object {
+                                                        "access": undefined,
+                                                        "children": [Function],
+                                                        "className": undefined,
+                                                        "disabled": undefined,
+                                                        "features": undefined,
+                                                        "field": [Function],
+                                                        "flexibleControlStateSize": false,
+                                                        "help": "Your full name",
+                                                        "hideErrorMessage": false,
+                                                        "highlighted": false,
+                                                        "label": "Name",
+                                                        "name": "name",
+                                                        "placeholder": "e.g. John Doe",
+                                                        "required": true,
+                                                        "type": "text",
+                                                        "user": Object {
+                                                          "email": "foo@example.com",
+                                                          "flags": Object {
+                                                            "newsletter_consent_prompt": false,
+                                                          },
+                                                          "hasPasswordAuth": true,
+                                                          "id": "1",
+                                                          "isAuthenticated": true,
+                                                          "name": "Foo Bar",
+                                                          "options": Object {
+                                                            "timezone": "UTC",
+                                                          },
+                                                          "username": "foo@example.com",
+                                                        },
+                                                      },
+                                                    }
+                                                  }
+                                                  name="name"
+                                                >
+                                                  <Observer>
+                                                    <ControlState
+                                                      isSaved={false}
+                                                      isSaving={false}
+                                                    />
+                                                  </Observer>
+                                                </FormFieldControlState>
+                                              </div>
+                                            </FieldControlState>
+                                          </div>
+                                        </FieldControlWrapper>
+                                        <Observer />
+                                      </div>
+                                    </FieldControlErrorWrapper>
+                                  </FieldControl>
+                                </div>
+                              </FieldWrapper>
+                            </Field>
+                          </FormField>
+                        </InputField>
+                      </TextField>
+                    </FieldFromConfig>
+                    <FieldFromConfig
+                      field={
+                        Object {
+                          "autoComplete": "username",
+                          "disabled": [Function],
+                          "help": "",
+                          "label": "Username",
+                          "name": "username",
+                          "placeholder": "e.g. name@example.com",
+                          "required": true,
+                          "type": "string",
+                          "visible": [Function],
+                        }
+                      }
+                      highlighted={false}
+                      key="username"
+                      user={
+                        Object {
+                          "email": "foo@example.com",
+                          "flags": Object {
+                            "newsletter_consent_prompt": false,
+                          },
+                          "hasPasswordAuth": true,
+                          "id": "1",
+                          "isAuthenticated": true,
+                          "name": "Foo Bar",
+                          "options": Object {
+                            "timezone": "UTC",
+                          },
+                          "username": "foo@example.com",
+                        }
+                      }
+                    >
+                      <TextField
+                        autoComplete="username"
+                        disabled={[Function]}
+                        help=""
+                        highlighted={false}
+                        label="Username"
+                        name="username"
+                        placeholder="e.g. name@example.com"
+                        required={true}
+                        type="string"
+                        user={
+                          Object {
+                            "email": "foo@example.com",
+                            "flags": Object {
+                              "newsletter_consent_prompt": false,
+                            },
+                            "hasPasswordAuth": true,
+                            "id": "1",
+                            "isAuthenticated": true,
+                            "name": "Foo Bar",
+                            "options": Object {
+                              "timezone": "UTC",
+                            },
+                            "username": "foo@example.com",
+                          }
+                        }
+                        visible={[Function]}
+                      >
+                        <InputField
+                          autoComplete="username"
+                          disabled={[Function]}
+                          field={[Function]}
+                          help=""
+                          highlighted={false}
+                          label="Username"
+                          name="username"
+                          placeholder="e.g. name@example.com"
+                          required={true}
+                          type="text"
+                          user={
+                            Object {
+                              "email": "foo@example.com",
+                              "flags": Object {
+                                "newsletter_consent_prompt": false,
+                              },
+                              "hasPasswordAuth": true,
+                              "id": "1",
+                              "isAuthenticated": true,
+                              "name": "Foo Bar",
+                              "options": Object {
+                                "timezone": "UTC",
+                              },
+                              "username": "foo@example.com",
+                            }
+                          }
+                          visible={[Function]}
+                        >
+                          <FormField
+                            autoComplete="username"
+                            disabled={[Function]}
+                            field={[Function]}
+                            flexibleControlStateSize={false}
+                            help=""
+                            hideErrorMessage={false}
+                            highlighted={false}
+                            label="Username"
+                            name="username"
+                            placeholder="e.g. name@example.com"
+                            required={true}
+                            type="text"
+                            user={
+                              Object {
+                                "email": "foo@example.com",
+                                "flags": Object {
+                                  "newsletter_consent_prompt": false,
+                                },
+                                "hasPasswordAuth": true,
+                                "id": "1",
+                                "isAuthenticated": true,
+                                "name": "Foo Bar",
+                                "options": Object {
+                                  "timezone": "UTC",
+                                },
+                                "username": "foo@example.com",
+                              }
+                            }
+                            visible={[Function]}
+                          >
+                            <Observer>
+                              <Field
+                                alignRight={false}
+                                autoComplete="username"
+                                disabled={false}
+                                field={[Function]}
+                                flexibleControlStateSize={false}
+                                help=""
+                                highlighted={false}
+                                id="username"
+                                inline={true}
+                                label="Username"
+                                name="username"
+                                placeholder="e.g. name@example.com"
+                                required={true}
+                                showHelpInTooltip={false}
+                                type="text"
+                                user={
+                                  Object {
+                                    "email": "foo@example.com",
+                                    "flags": Object {
+                                      "newsletter_consent_prompt": false,
+                                    },
+                                    "hasPasswordAuth": true,
+                                    "id": "1",
+                                    "isAuthenticated": true,
+                                    "name": "Foo Bar",
+                                    "options": Object {
+                                      "timezone": "UTC",
+                                    },
+                                    "username": "foo@example.com",
+                                  }
+                                }
+                                visible={false}
+                              />
+                            </Observer>
+                          </FormField>
+                        </InputField>
+                      </TextField>
+                    </FieldFromConfig>
+                  </div>
+                </FlexBox>
+              </PanelBody>
+            </div>
+          </Component>
+        </Panel>
+      </FormPanel>
+    </div>
+  </Styled(div)>
+</JsonForm>
+`;
